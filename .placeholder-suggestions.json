@@ -1,0 +1,19 @@
+{
+  "TourenDialog.tsx": {
+    "datum_uhrzeit": "z. B. morgen um 10:00",
+    "treffpunkt": "z. B. Marienplatz",
+    "guide_vorname": "z. B. Klaus",
+    "guide_nachname": "z. B. Müller",
+    "max_teilnehmer": "z. B. 12",
+    "anmerkungen_tour": "Besonderheiten, Routen-Änderungen, Hinweise..."
+  },
+  "BuchungenDialog.tsx": {
+    "tour": "Welche Tour buchen?",
+    "gast_vorname": "z. B. Anna",
+    "gast_nachname": "z. B. Schmidt",
+    "gast_email": "z. B. anna@example.com",
+    "gast_telefon": "z. B. +49 123 456789",
+    "anzahl_plaetze": "z. B. 2",
+    "anmerkungen_buchung": "Besondere Wünsche, Allergien, Mobilitätshilfen..."
+  }
+}

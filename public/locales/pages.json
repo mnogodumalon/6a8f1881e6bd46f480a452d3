@@ -1,0 +1,32 @@
+{
+  "pages": {
+    "en": {
+      "Aktuelle Touren": "Current Tours",
+      "Buchen": "Book",
+      "Buchung eintragen": "Add Booking",
+      "Buchungen heute": "Bookings Today",
+      "Diese Woche": "This Week",
+      "Fast ausgebucht": "Almost Full",
+      "Guide zuweisen": "Assign Guide",
+      "Gäste diese Woche": "Guests This Week",
+      "Heute": "Today",
+      "Heute keine Touren geplant.": "No tours scheduled for today.",
+      "Heute {0} — {1}": "Today {0} — {1}",
+      "Heutige Touren": "Today's Tours",
+      "Kein Guide": "No Guide",
+      "Keine Touren in diesem Zeitraum": "No tours in this period",
+      "Neue Tour": "New Tour",
+      "Noch keine Buchungen für heute": "No bookings for today yet",
+      "Plätze": "Seats",
+      "Tour anlegen": "Create Tour",
+      "Tour verschoben": "Tour Postponed",
+      "Touren": "Tours",
+      "Touren diese Woche": "Tours This Week",
+      "Unbekannter Gast": "Unknown Guest",
+      "Unbekannter Treffpunkt": "Unknown Meeting Point",
+      "eine Tour": "one tour",
+      "{0} — Guide fehlt noch!": "{0} — Guide still missing!"
+    }
+  },
+  "v": 1
+}

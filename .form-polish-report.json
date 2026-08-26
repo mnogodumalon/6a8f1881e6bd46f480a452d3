@@ -1,0 +1,16 @@
+{
+  "entities": {
+    "Touren": {
+      "placeholders_set": 6,
+      "defaults_keys": ["datum_uhrzeit", "max_teilnehmer"],
+      "computed_keys": [],
+      "reason": "Reine Stammdaten — keine numerischen Beziehungen zwischen Feldern, kein applookup auf Preise, keine Datumsdifferenzen zu berechnen"
+    },
+    "Buchungen": {
+      "placeholders_set": 7,
+      "defaults_keys": ["anzahl_plaetze"],
+      "computed_keys": [],
+      "reason": "Reine Buchungsdaten — applookup auf Tour mit nur max_teilnehmer (keine Preis-Berechnung möglich), anzahl_plaetze ist Input ohne Formel"
+    }
+  }
+}
