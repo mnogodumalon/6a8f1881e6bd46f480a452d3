@@ -14,6 +14,8 @@ import TourenDetailPage from '@/pages/TourenDetailPage';
 import BuchungenPage from '@/pages/BuchungenPage';
 import BuchungenDetailPage from '@/pages/BuchungenDetailPage';
 // <custom:imports>
+const IntentTourBuchenPage = lazy(() => import('@/pages/intents/TourBuchenPage'));
+const IntentTourAnlegenPage = lazy(() => import('@/pages/intents/TourAnlegenPage'));
 // </custom:imports>
 
 // Lazy: public pages live outside <Layout> and only load on /#/public/:slug —
@@ -74,6 +76,8 @@ export default function App() {
                 <Route path="admin" element={<AdminPage />} />
                 <Route path="verwaltung/oeffentliche-seiten" element={<PublicPagesAdmin />} />
                 {/* <custom:routes> */}
+                <Route path="intents/tour-buchen" element={<Suspense fallback={null}><IntentTourBuchenPage /></Suspense>} />
+                <Route path="intents/tour-anlegen" element={<Suspense fallback={null}><IntentTourAnlegenPage /></Suspense>} />
                 {/* </custom:routes> */}
               </Route>
             </Routes>
